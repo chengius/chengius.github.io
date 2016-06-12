@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>测试中</title>
+        <style media="screen">
+            html, body {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                color: #34495E;
+                background-color: #2980B9;
+            }
+            form.login {
+                position: relative;
+                width: 240px;
+                margin: 20% auto;
+                margin: 20vh auto;
+                padding: 8px;
+                background-color: #ECF0F1;
+                border-radius: 4px;
+                border: 1px solid #184097;
+                box-shadow: 2px 2px 2px #184097;
+                text-align: center;
+            }
+            form.login span, form.login input {
+                display: block;
+                margin: 12px auto;
+                width: 220px;
+            }
+
+            form.login input {
+                height: 24px;
+                border: 1px solid #2ECC71;
+                border-radius: 2px;
+                font-size: 16px;
+            }
+
+            form.login input:focus {
+                border: 1px solid #F1C40F;
+            }
+
+            form.login span {
+                font-size: 20px;
+                letter-spacing: 0.8em;
+                font-weight: bold;
+            }
+
+            form.login button {
+                font-size: 16px;
+                color: #FFFFFF;
+                height: 30px;
+                width: 70px;
+                background-color: #16A085;
+                border: 0px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+
+            @media screen and (min-width: 321px) {
+                form.login {
+                    width: 280px;
+                }
+
+                form.login span, form.login input {
+                    width: 260px;
+                }
+                form.login input {
+                    height: 26px;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                form.login {
+                    width: 340px;
+                }
+
+                form.login span, form.login input {
+                    width: 310px;
+                }
+
+                form.login input {
+                    height: 28px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <form class="login" action="" method="post">
+            <span>登录</span>
+            <input type="text" name="username" value="" placeholder="用户名">
+            <input type="password" name="password" value="" placeholder="密码">
+            <button type="button" name="login">确 定</button>
+        </form>
+    </body>
+</html>
